@@ -1,3 +1,15 @@
 body {
-  background-color: lightgreen;
+  background-color: #dbeaad7d;
+  margin: 20px;
+  font-family: sans-serif;
+
+}
+
+#content {
+  width: 50%;
+}
+
+#picture {
+  border: 1px;
+  border-color: black;
 }

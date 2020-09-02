@@ -4,7 +4,7 @@ body {
 }
 
 p {
-  font-family: monospace;
+  font-family: san-sans-serif;
   color: green;
 }
 
@@ -12,5 +12,5 @@ p {
     background-color: #fef6e1;
     padding: 10px;
     margin: 10px;
-    border: solid 1px black;
+    border: solid 1px dotted black;
 }
