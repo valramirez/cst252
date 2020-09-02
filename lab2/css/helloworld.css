@@ -3,6 +3,13 @@ body {
 }
 
 p {
-  font-family: sans-serif;
+  font-family: monospace;
   color: green;
+}
+
+#content {
+    background-color: #fef6e1;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
 }
