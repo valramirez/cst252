@@ -1,6 +1,6 @@
 body {
-  color: #923d96;
-  background-color: #fcebc2;
+  color: #934b96;
+  background-color: #f4bef5;
 }
 /* navigation bar thanks to w3schools :D */
 nav {
@@ -11,6 +11,7 @@ ul {
   margin: -5px;
   padding: 10px;
   overflow: hidden;
+  font-size: large;
 }
 
 li {
@@ -51,6 +52,7 @@ h1 {
 font-weight:  bolder;
 font-size: 250%;
 margin: auto;
+color: #802b83;
 }
 
 h2{
