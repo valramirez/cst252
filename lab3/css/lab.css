@@ -8,14 +8,14 @@ nav {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: -5px;
+  padding: 10px;
   overflow: hidden;
-  background-color: #333;
 }
 
 li {
-  float: left;
+  float: right;
+  margin-right: 10px;
 }
 
 li a {
@@ -27,7 +27,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #923d96;
 }
 /* end of nav bar */
 
@@ -37,11 +37,6 @@ p {
   font-size: 100%;
   color: #923d96;
 }
-
-p.special {
-  font-size: 60%:
-}
-
 
 #content {
   background-color: #f4bef5;
