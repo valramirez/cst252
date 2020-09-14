@@ -1,0 +1,72 @@
+/* navigation bar thanks to w3schools :D */
+nav {
+  margin-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: -5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #738FC3;
+}
+/* end of nav bar */
+
+body {
+  color: #eccf3f;
+  background-color: rgb(20, 70, 112);
+  font-size: 120%;
+}
+
+#content {
+  background-color: rgba(20, 70, 112, 0.7);
+  padding: 180px;
+  margin: 50px;
+  margin-top: 60px;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+img {
+  width: 700px;
+  margin: auto;
+  border: double 4px black;
+  margin: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a {
+  color: #ea893f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
