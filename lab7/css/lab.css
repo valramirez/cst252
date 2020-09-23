@@ -1,0 +1,63 @@
+/* navigation bar thanks to w3schools :D */
+nav {
+  margin-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: -5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #275784;
+}
+/* end of nav bar */
+
+body {
+  background-color: #3D9ABB;
+  color: rgb(39, 87, 132);
+  font-size: 110%;
+
+
+}
+
+#content {
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+pre {
+  display: block;
+  font-family: sans-serif;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+
+img {
+  margin: auto;
+  margin: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
