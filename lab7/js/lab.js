@@ -1,11 +1,11 @@
 /*Author: Caden Albertson <calbertson@csumb.edu>
-*Created: 23 September
+*Created: 21 September
 *License: Public Domain
 */
 
 //will say my name
 function sayMyName() {
-  return "Val";
+  return "Caden";
 }
 document.write("My name is " + sayMyName());
 //will reverse my array

@@ -28,7 +28,8 @@ li a:hover {
 /* end of nav bar */
 
 body {
-  background-color: #3D9ABB;
+  background: rgb(39,87,132);
+background: linear-gradient(0deg, rgba(61, 125, 186,1) 10%, rgba(61,154,187,1) 100%);
   color: rgb(39, 87, 132);
   font-size: 110%;
 
@@ -44,11 +45,15 @@ body {
 
 pre {
   display: block;
-  font-family: sans-serif;
+  font-family: monospace;
   white-space: pre;
   margin: 1em 0;
 }
 
+#script {
+  padding: 10px;
+  border: double 3px black;
+}
 
 img {
   margin: auto;
