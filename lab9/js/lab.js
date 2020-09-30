@@ -20,6 +20,7 @@
 
     new1El.innerHTML = "When all of this is over, I want to go on a picninc date with my partner";
     document.body.appendChild(new1El);
+    document.getElementById("p").style.color = "white";
 
 //Create another second element
     var new2El =
@@ -27,3 +28,4 @@
 
     new2El.innerHTML = "And hold hands and watch the sun setting together";
     document.body.appendChild(new2El);
+    document.getElementById("p2").style.color = "white";
