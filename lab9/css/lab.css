@@ -1,0 +1,65 @@
+/* navigation bar thanks to w3schools :D */
+nav {
+  margin-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: -5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #364f1a;
+}
+/* end of nav bar */
+
+body {
+  background: rgb(39,87,132);
+  color: #364f1a;
+  font-size: 110%;
+
+
+}
+#picnic {
+  float: right;
+  margin: 10px;
+}
+
+
+#content {
+  padding: 30px;
+  background-color: rgba(244, 183, 176,0.8);
+  margin: 50px;
+  font-family: sans-serif;
+  line-height: 31px;
+}
+
+.script {
+  left: 60px;
+}
+
+img {
+  margin: auto;
+  margin: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
