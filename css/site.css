@@ -1,39 +1,38 @@
 body {
-  background-color: #923d96;
-  padding: 30px;
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #923d96;
+    padding: 30px;
+    font-size: 120%;
+}
+
+#content {
+    padding: 50px;
+    background-color: rgb(242, 187, 244, 0.9);
+    min-height: 80vh;
+    box-shadow: 0px 0px 45px rebeccapurple;
+}
+
+#headshot {
+    float: right;
+    margin: 10px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  }
+
+h1 {
+  font-weight:  bolder;
+  font-size: 200%;
+  margin: auto;
+  color: #67216A;
+  align-items: center;
 }
 
 p {
   font-family: sans-serif;
-  font-size: 100%;
   color: #923d96;
-}
-
-#content {
-  background-color: rgb(242, 187, 244, 0.9);
-  padding: 30px;
-  margin: 20px;
-  box-shadow: 0px 0px 45px rebeccapurple;
-  width: 60%;
-  float: left;
-  flex: auto;
-}
-
-aside{
-  width: 20%;
-  background-color: rgb(242, 187, 244, 0.9);
-  padding: 20px;
-  margin: 20px;
-  box-shadow: 0px 0px 45px rebeccapurple;
-  flex: auto;
-  float: right;
-}
-
-h1 {
-font-weight:  bolder;
-font-size: 200%;
-margin: auto;
-color: #67216A;
 }
 
 a {
@@ -52,9 +51,4 @@ h2{
   font-family: serif;
   font-weight: bolder;
   color: #934b96;
-}
-
-img {
-  width: 400px;
-  margin: auto;
 }
