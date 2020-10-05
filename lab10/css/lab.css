@@ -23,33 +23,27 @@ li a {
 }
 
 li a:hover {
-  background-color: #364f1a;
+  background-color: #234B2E;
 }
 /* end of nav bar */
 
 body {
-  background: rgb(39,87,132);
-  color: #364f1a;
+  background: rgb(114, 175, 107);
+  color: #234B2E;
   font-size: 110%;
-
-
 }
-#picnic {
-  float: right;
-  margin: 10px;
-}
-
 
 #content {
-  padding: 30px;
-  background-color: rgba(114, 175, 107, 0.8);
-  margin: 50px;
+  padding: 40px;
+  margin: 40px;
   font-family: sans-serif;
   line-height: 31px;
+  background-color: rgba(114, 175, 107, 0.8);
 }
 
-.script {
-  left: 60px;
+#output {
+  padding: 10px;
+  border: double 3px black;
 }
 
 img {
