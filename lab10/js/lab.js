@@ -6,18 +6,21 @@
     Caden Albertson for listenting to me complain about how much I don't understand these assignments.
 */
 
+
+//here is what will appear in the output section
 var button = document.getElementById("myButton");
 var input = document.getElementById("input");
 var heading = document.getElementById("heading");
 
+//here's the basics of getting the button to work
 function buttonPress() {
 
-  // get input from field
+  // person adds their name and submits
   var inputText = input.value;
 
-  // add input to h1
+  // our response after they hit submit
   heading.innerText = "Nice to meet you, " + inputText + "! That's a pretty cool name you got there!"
-;
+  ;
   // clear field value
   input.value = "";
 
@@ -25,3 +28,5 @@ function buttonPress() {
 }
 
 button.addEventListener("click", buttonPress);
+
+// ta-da!! it works :D
