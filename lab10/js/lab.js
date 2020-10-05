@@ -12,13 +12,13 @@ var button = document.getElementById("myButton");
 var input = document.getElementById("input");
 var heading = document.getElementById("heading");
 
-//here's the basics of getting the button to work
+//getting the button to work
 function buttonPress() {
 
-  // person adds their name and submits
+  // get input from field
   var inputText = input.value;
 
-  // our response after they hit submit
+  // add inp
   heading.innerText = "Nice to meet you, " + inputText + "! That's a pretty cool name you got there!"
   ;
   // clear field value
@@ -28,5 +28,3 @@ function buttonPress() {
 }
 
 button.addEventListener("click", buttonPress);
-
-// ta-da!! it works :D
