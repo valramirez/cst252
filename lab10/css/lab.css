@@ -22,13 +22,13 @@ li a {
 }
 
 li a:hover {
-  background-color: #234B2E;
+  background-color: #000000;
 }
 /* end of nav bar */
 
 body {
   background: rgb(114, 175, 107);
-  color: #234B2E;
+  color: #E36534;
   font-size: 110%;
 }
 
