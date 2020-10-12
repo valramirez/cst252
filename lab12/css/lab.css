@@ -1,0 +1,58 @@
+nav {
+  margin-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: -5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-right: 10px;
+  background-color: #A5A3CF;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+/* end of nav bar */
+
+body {
+  background: #A5A3CF;
+  color: black;
+  font-size: 110%;
+}
+
+#content {
+  padding: 40px;
+  margin: 80px;
+  font-family: sans-serif;
+  line-height: 31px;
+  background-color: #A5A3CF;
+}
+
+#script {
+  padding: 30px;
+  border: double 3px black;
+  margin: 50px;
+}
+
+#output {
+  columns: 50px 5;
+  line-height: 8px;
+  font-size: 80%;
+}
+
+a {
+  color: white;
+}
