@@ -1,31 +1,18 @@
 /*
- * Author: Val Ramirez <valeramirez@csumb.edu>
- * Created: 30 September
- * License: Public Domain
- */
+* Author: Val Ramirez <valeramirez@csumb.edu>
+* Created: 30 September / Last Updated Oct 18
+* License: Public Domain
+* Credit to : Faris Rayhan via Stackoverflow / Direct link to question is https://stackoverflow.com/questions/27079598/error-failed-to-execute-appendchild-on-node-parameter-1-is-not-of-type-no
+*/
 
 
-  //here's my attempt to figure this output
-      // welcome aboard :)
+//here's my attempt to figure this output
+// welcome aboard :)
 
-
-//Find the target element
-      var outputEl =
-        document.createElement("p");
-        document.body.appendChild(outputEl);
+//show all of this info on the page like it's supposed to be
+var outputEl = document.getElementById("output").innerHTML;
 
 //Set the text of the element
-    var new1El =
-      document.createElement("p");
-
-    new1El.innerHTML = "When all of this is over, I want to go on a picninc date with my partner";
-    document.body.appendChild(new1El);
-    document.getElementById("p").style.color = "white";
-
-//Create another second element
-    var new2El =
-      document.createElement ("p2");
-
-    new2El.innerHTML = "And hold hands and watch the sun setting together";
-    document.body.appendChild(new2El);
-    document.getElementById("p2").style.color = "white";
+var new1El = document.createElement('p');
+output.innerHTML = 'Not to be NSFW, but when all of this is over, I want to go on a picninc date with my partner.' + ' We will hold hands and watch the sun set together.'
+document.body.appendChild(new1El);
