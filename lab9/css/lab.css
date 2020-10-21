@@ -28,7 +28,7 @@ li a:hover {
 /* end of nav bar */
 
 body {
-  background: rgb(39,87,132);
+  background: rgb(54, 79, 26);
   color: #364f1a;
   font-size: 110%;
 
@@ -54,10 +54,6 @@ body {
   margin: 50px;
 }
 
-img {
-  margin: auto;
-  margin: 50px;
-}
 
 .center {
   display: block;
