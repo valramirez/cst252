@@ -24,9 +24,9 @@
 
 
     var faveCar = new Vehicle(" red ",  2000," Volswagon", " Beetle.");
-    document.getElementById("output").innerHTML += "My favorite car I owned was a " + faveCar.info() + " I think about this car almost every single day." + "</p>";
+    document.getElementById("output").innerHTML += "My favorite car I owned was a " + faveCar.info() + " I think about this car almost every single day. I used to have the best vibes driving this bad boy around town." + "</p>";
       console.log(faveCar);
 
     var newCar = new Vehicle(" brown ", 2008, " Suzuki", " Forenza");
-      document.getElementById("output").innerHTML += "I currently drive a " + newCar.info() + " covered in anime stickers. Middle School me would have been easily impressed by the car I drive right now. Am I? Absouletly." + "</p>";
+      document.getElementById("output").innerHTML += "I currently drive a " + newCar.info() + " covered in anime stickers. Middle School me would have been easily impressed by the car I drive right now. My favorite part about this vehicle is the very iconic Hatsune Miku on my license plate." + "</p>";
       console.log(newCar);
