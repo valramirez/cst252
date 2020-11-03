@@ -8,11 +8,11 @@
 // The functions below will change the color of the text when pressed.
 
   // This changes the "Challenge" section to red.
-    $(document).ready(function(){
-      $("#challenge-button").click(function(){
-          $("#challenge").css({"color": "red"});},
-      );
-    });
+  $(document).ready(function(){
+    $("#challenge-button").click(function(){
+        $("#challenge").css({"color": "red"});},
+    );
+  });
 
     // This changes the "Problems" section to blue.
       $(document).ready(function(){
