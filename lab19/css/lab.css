@@ -1,0 +1,62 @@
+nav {
+  margin-top: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: -5px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(138, 139, 203);
+}
+/* end of nav bar */
+
+body {
+  background: rgb(138, 139, 203);
+  color: white;
+  font-size: 110%;
+}
+
+a {
+  color: #955798;
+}
+
+#content {
+  padding: 40px;
+  margin: 20px;
+  font-family: sans-serif;
+  line-height: 31px;
+  background-color: rgba(138, 139, 203, 0.8);
+}
+
+#output {
+  padding: 10px;
+  border: double 3px black;
+}
+
+img {
+  margin: auto;
+  margin: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
