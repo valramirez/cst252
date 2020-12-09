@@ -1,0 +1,12 @@
+#content {
+  padding: 40px;
+  margin: 30px;
+  font-family: sans-serif;
+  line-height: 31px;
+}
+
+#script {
+  padding: 30px;
+  border: double 3px black;
+  margin: 50px;
+}
