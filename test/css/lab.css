@@ -10,3 +10,8 @@
   border: double 3px black;
   margin: 50px;
 }
+
+audio {
+  display: block;
+  background-color: rebeccapurple;
+}
